@@ -31,8 +31,8 @@ def get_lyrics(song,band):
         
         #Find the starting and ending indices for the lyrics
         
-        startindex = html.find("<!-- start of lyrics -->") + len("<!-- start of lyrics -->")
-        endindex = html.find("<!-- end of lyrics -->") - len("<!-- end of lyrics -->")
+        startindex = html.find("<!-- start of lyrics -->") 
+        endindex   = html.find("<!-- end of lyrics -->") 
         
         # Slicing to get the lyrics
         
