@@ -28,7 +28,7 @@ def getimageurl():
     fd.close()
     fd1.close()
 
-    print "\nDone\n"
+    print "\nFinished processing - Links stores in file 'imglink'\n"
 
 def main():
     getimageurl()
